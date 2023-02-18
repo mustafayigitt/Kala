@@ -8,6 +8,10 @@
 [![GitHub release](https://img.shields.io/github/release/mustafayigitt/kala?include_prereleases=&sort=semver&color=blue)](https://github.com/mustafayigitt/kala/releases/)
 [![License](https://img.shields.io/badge/License-Apache-blue)](#license)
 
+<p align=center>
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYmZkMWQzYzU5ZGE1NzNjNzIwZWY2NGE2NTM3NTgxNGNiNzJmZjQ1OSZjdD1n/Xf3i0x6LdqYkINVr9t/giphy.gif">
+</p>
+
 Kala is an Android resource management library that allows you to easily manage your strings, drawables, and other resources. With Kala, you can centralize your resource management in one place, manage multiple language translations, and easily retrieve and manipulate resources from your application code.
 
 ## Features
