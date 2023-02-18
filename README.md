@@ -161,6 +161,9 @@ You can clear the resource cache by calling the clear function on the ResourceMa
   // Clear the resource cache
   ResourceManager.clear()
 ```
+## Contribution
+We welcome all contributions to Kala! 
+Please open issue when detect a problem. Every issue will be open to review and merge with pull requests. 
 
 License
 =======
