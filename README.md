@@ -63,6 +63,14 @@ The `getString` and `getDrawable` functions are accessed from the `IResourceMana
         return getString(key, *args)
     }
 ```
+You should add this line to module kotlinOptions for **Kotlin Context-Receivers**:
+```kotlin
+    kotlinOptions {
+        ...
+        freeCompilerArgs = ["-Xcontext-receivers"]
+    }
+```
+
 ResourceKey provides a companion object that has a reified invoke() function to create a new instance of the ResourceKey class with the specified type and key.
 ```kotlin
     companion object {
