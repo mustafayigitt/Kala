@@ -127,7 +127,8 @@ To retrieve a drawable resource, use the ResourceKey<Drawable> class. You can de
     val flagDrawable = ResourceKeys.COUNTRY_FLAG() // Returns the drawable resource with key "flag"
   }
 ```
-### Use without ResourceManager scope
+
+### Use without ResourceManager scope
 ```kotlin
   txtLabel.text = ResourceManager.getString("${ResourceKeys.HELLO}")
 ```
