@@ -110,6 +110,14 @@ First, you need to initialize the ResourceManager singleton instance. The Resour
   // Initialize the ResourceManager
   ResourceManager.setLanguage("en")
   ResourceManager.provideStrings(getEnglishStrings())
+ ... 
+private fun getEnglishStrings(): Map<String, String> {
+        return mapOf(
+            "${ResourceKeys.HELLO}" to "Hello!",
+            "${ResourceKeys.CHANGE_LANGUAGE}" to "Change Language",
+            "${ResourceKeys.SUCCESS}" to "Success!",
+        )
+    }
 ```
 ### String Resources
 To retrieve a string resource, use the ResourceKey<String> class. You can define your own string resources in the ResourceKeys object.
